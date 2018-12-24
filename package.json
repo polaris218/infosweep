@@ -223,7 +223,7 @@
     "nodemon": "^1.18.9",
     "phantomjs-prebuilt": "^2.1.3",
     "puppeteer": "^1.11.0",
-    "react-addons-test-utils": "^15.0.0",
+    "react-addons-test-utils": "^15.6.2",
     "react-test-renderer": "^16.2.0",
     "redbox-react": "^1.2.2",
     "redux-mock-store": "^1.2.3",
