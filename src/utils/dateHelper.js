@@ -17,7 +17,7 @@ const getNumberOfDays = (startDate, endDate) => {
   const end = endDate || new Date().toDateString()
   const start = formatDate(startDate)
   const millisecondsPerDay = 24 * 60 * 60 * 1000
-  return Math.ceil((Date.parse(end) - Date.parse(start)) / millisecondsPerDay)
+  return Math.round((Date.parse(end) - Date.parse(start)) / millisecondsPerDay)
 }
 
 export {
