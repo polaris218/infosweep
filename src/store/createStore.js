@@ -1,7 +1,7 @@
 import Raven from 'raven-js'
 import { applyMiddleware, compose, createStore } from 'redux'
 import { routerMiddleware, syncHistoryWithStore } from 'react-router-redux'
-import createBrowserHistory from 'history/lib/createBrowserHistory'
+import createBrowserHistory from 'history/lib/createBrowserHistory';
 import { useRouterHistory } from 'react-router'
 import thunk from 'redux-thunk'
 import makeRootReducer from './reducers'
